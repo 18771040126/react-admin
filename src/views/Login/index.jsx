@@ -5,8 +5,6 @@ import './index.css'
 const Login: React.FC = (props: any) => {
   const [form] = Form.useForm()
   const [, forceUpdate] = useState({})
-
-  // To disable submit button at the beginning.
   useEffect(() => {
     forceUpdate({})
   }, [])

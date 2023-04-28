@@ -1,4 +1,3 @@
-import Home from '../views/Home'
 import Layout from '../layout'
 const RenderRoutesMap = [
   {
